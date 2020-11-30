@@ -38,7 +38,7 @@ def generate_word_cloud(text):
                     background_color ='white', 
                     max_words=200, 
                     min_font_size = 10,
-                    font_path='/davidbd.ttf').generate(text)
+                    font_path='david.ttf').generate(text)
     return wordcloud
 
 df=load_data()
